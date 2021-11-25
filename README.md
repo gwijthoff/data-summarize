@@ -1,5 +1,5 @@
 # "Data, Summarize"
 
-![](summarizeplease.gif)
+![](output.Atwood_1986_THE HANDMAID'S TALE .png)
 
-https://media.giphy.com/media/n31FHMUetREOdiOQ37/giphy.mp4
+![](summarizeplease.gif)
