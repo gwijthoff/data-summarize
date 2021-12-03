@@ -6,13 +6,13 @@ The cool thing about writing Python in DrawBot is that you can simultaneously an
 
 The Python script is run in [DrawBot](https://drawbot.com/), an open-source integrated development environment for Python often used by graphic designers for creating fonts and kinetic typography. [Extracted Features](https://programminghistorian.org/en/lessons/text-mining-with-extracted-features) is a data format devised by HathiTrust Research Center in order to enable text analysis on post-1926 books still under copyright.
 
-When run in DrawBot, [`data_summarize.py`](data_summarize.py) takes the Extracted Features file for each of the ten books listed by HathiTrust ID in [`EF_files.txt`](EF_files.txt). It then pulls the metadata for each book, takes a sample of random tokens, performs [TF-IDF](https://programminghistorian.org/en/lessons/analyzing-documents-with-tfidf) analysis, and calculates the appropriate font size for author name and title based on the letters that have to fit into a prescribed width.
-
-Places are noted in the script where the broadside's design, font, and colors can be customized to suit the genre or period of the books you're analyzing.
-
 <p align="center">
     <img src="output/Delany_1967_THE%20EINSTEIN%20INTERSECTION%20.png" alt="Broadside displaying quantitative measures of Samuel R. Delany's The Einstein Intersection." />
 </p>
+
+When run in DrawBot, [`data_summarize.py`](data_summarize.py) takes the Extracted Features file for each of the ten books listed by HathiTrust ID in [`EF_files.txt`](EF_files.txt). It then pulls the metadata for each book, takes a sample of random tokens, performs [TF-IDF](https://programminghistorian.org/en/lessons/analyzing-documents-with-tfidf) analysis, and calculates the appropriate font size for author name and title based on the letters that have to fit into a prescribed width.
+
+Places are noted in the script where the broadside's design, font, and colors can be customized to suit the genre or period of the books you're analyzing.
 
 |                           |                           |
 | ------------------------- | ------------------------- |
